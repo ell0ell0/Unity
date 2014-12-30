@@ -334,7 +334,7 @@ BRAND - hero
 		text-align: center;
 		letter-spacing: 1rem;
 		padding-left: 0.5rem;
-		text-shadow: $is_blue rem-calc(6) rem-calc(4) 0;
+		text-shadow: $is_blue rem-calc(5) rem-calc(3) 0;
 	}
 
 	hr {
@@ -408,6 +408,7 @@ BRAND - hero
 	}
 	@media #{$medium-only} { 
 		height: 420px;
+
 		.type_wrapper{
 			padding-top: 1.125rem;
 		}
@@ -417,6 +418,7 @@ BRAND - hero
 		.display {
 			font-size: 1.75rem;
 			letter-spacing: 0.75rem;
+			text-shadow: $is_blue rem-calc(4) rem-calc(2) 0;
 		}
 		#hero_headline {
 			font-size: 7rem;
@@ -445,6 +447,7 @@ BRAND - hero
 			font-size: 1.25rem;
 			letter-spacing: 0.25rem;
 			margin-top: -0.125rem;
+			text-shadow: $is_blue rem-calc(3) rem-calc(2) 0;
 		}
 		#hero_headline {
 			font-size: 4rem;
