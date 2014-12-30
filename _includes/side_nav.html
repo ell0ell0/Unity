@@ -1,0 +1,22 @@
+<div id="side_nav">
+	<div class="row">
+		<div class="large-2 medium-3 columns">
+			<ul>
+				<li class="nav_item"><a class="nav_brand active"><div>Brand<i class="fa fa-chevron-down flip"></i></div></a></li>
+				<ul class="brand_sub_nav sub_nav_open">
+					{% for item in site.data.brand_nav %}
+						<li class="sub_nav_item"><a href="#brand_{{ item.name }}"><div>{{ item.name }}</div></a></li>
+					{% endfor %}
+
+				</ul>
+
+				<li class="nav_item"><a class="nav_ui"><div>UI Elements<i class="fa fa-chevron-down"></i></div></a></li> 
+				<ul class="ui_sub_nav">
+					{% for item in site.data.ui_nav %}
+						<li class="sub_nav_item"><a href="#ui_{{ item.name }}"><div>{{ item.name }}</div></a></li>
+					{% endfor %}
+				</ul>
+			</ul>
+		</div> 
+	</div>
+</div>

@@ -1,0 +1,86 @@
+$is_blue: #00B3E9;	
+$is_grey: #333333;	
+$is_light_grey: #f1f1f1;
+$is_teal: #57D0B5;
+$is_green: #5FBA50;
+$is_yellow: #E3DE4D;
+$is_orange: #FFC23E;
+$is_red: #E96955;
+$is_purple: #B876C9;
+$is_violet: #8179C5;
+
+$is_not_white: #f8f8f8;
+$is_slightly_grey: #e0e0e0;
+$is_mid_grey: #888888;
+$is_almost_white: #fcfcfc;
+
+.is_blue_color {
+	color: $is_blue;
+}
+.is_grey_color  {
+	color: $is_grey;
+}
+.is_light_grey_color  {
+	color: $is_light_grey;
+}
+.is_teal_color  {
+	color: $is_teal;
+}
+.is_green_color  {
+	color: $is_green;
+}
+.is_yellow_color  {
+	color: $is_yellow;
+}
+.is_orange_color  {
+	color: $is_orange;
+}
+.is_red_color  {
+	color: $is_red;
+}
+.is_purple_color  {
+	color: $is_purple;
+}
+.is_violet_color  {
+	color: $is_violet;
+}
+.is_white_color {
+	color: white;
+}
+.is_mid_grey_color {
+	color: $is_mid_grey;
+}
+
+.is_blue_bg {
+	background: $is_blue;
+}
+.is_grey_bg  {
+	background: $is_grey;
+}
+.is_light_grey_bg  {
+	background: $is_light_grey;
+}
+.is_teal_bg {
+	background: $is_teal;
+}
+.is_green_bg  {
+	background: $is_green;
+}
+.is_yellow_bg  {
+	background: $is_yellow;
+}
+.is_orange_bg  {
+	background: $is_orange;
+}
+.is_red_bg {
+	background: $is_red;
+}
+.is_purple_bg  {
+	background: $is_purple;
+}
+.is_violet_bg  {
+	background: $is_violet;
+}
+.is_white_bg {
+	background: white;
+}
