@@ -504,8 +504,8 @@ BRAND - name
 
 @media #{$small-only} { 
 	.huge_type {
-		font-size: 1.875rem;
-		letter-spacing: rem-calc(1);
+		font-size: 1.75rem;
+		letter-spacing: rem-calc(0.25);
 	} 
 }
 
